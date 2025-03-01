@@ -138,7 +138,7 @@ def render_github_card(repo):
 def main():
     """Main application function."""
     # Header
-    st.title("Research PaperSync")
+    st.title("PaperSync")
     st.markdown("Discover video explanations and code implementations for research papers.")
 
     # Sidebar search form
