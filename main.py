@@ -3,7 +3,7 @@ from fetch_data import fetch_youtube_explanations, fetch_github_implementations
 
 # Page configuration
 st.set_page_config(
-    page_title="Paper Explorer",
+    page_title="PaperSync",
     page_icon="📖",
     layout="wide"
 )
@@ -138,7 +138,7 @@ def render_github_card(repo):
 def main():
     """Main application function."""
     # Header
-    st.title("Research Paper Explorer")
+    st.title("Research PaperSync")
     st.markdown("Discover video explanations and code implementations for research papers.")
 
     # Sidebar search form
